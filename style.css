@@ -1,0 +1,70 @@
+body {background-color:#ffffff;font-family: fantasy;}
+td
+{
+  border-style:solid;
+  border-width:1px;
+  margin:inherit;
+  padding:inherit;
+}
+/* navigation */
+ul
+{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+li
+{
+  display:inline;
+  margin:0 25 0 0;
+}
+
+#navigation {font-family: fantasy;padding: 5px 0 5px 0;}
+a:link {color:rgba(105, 105, 105, 0.59);text-decoration:none;}      /* unvisited link */
+a:visited {color:rgba(105, 105, 105, 0.59);text-decoration:none;}  /* visited link */
+a:hover {color:rgba(105, 105, 105, 0.59);text-decoration:underline;}  /* mouse over link */
+a:active {color:rgba(105, 105, 105, 0.59);}  /* selected link */
+
+/* content */
+#content div
+{
+  font-family:monospace;
+  padding: 5 5 5 5;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10 10 10 0;
+}
+#content {padding-left:5px; vertical-align:top;padding-top:10px;padding-bottom:10px;padding-right:5px;}
+#content #regler
+{
+  display:block;
+  padding-top:15px;
+  text-indent:15px;
+}
+p
+{
+  font-family:monospace;
+  padding: 0 0 0 0;
+}
+#content li
+{
+  font-family:monospace;
+  display:block;
+}
+
+/* sponsors */
+#sponsors {vertical-align:top;font-family:monospace;padding-top:10px;}
+
+/* bottom */
+#bottom {text-align:center;padding:10 10 10 10;font-family:monospace;}
+#bottom a:link {color:rgba(255, 33, 3, 0.59);text-decoration:bold;}      /* unvisited link */
+
+/* New css */
+
+.header {
+  text-align: center;
+  padding: 5 5 5 5;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10 10 10 0;
+}
